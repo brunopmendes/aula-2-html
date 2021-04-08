@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+main{
+    /* max-height: 500px;
+    padding-bottom: 157px;     */
+    background-image: url(imagens/background.svg);
+    background-repeat: no-repeat;
+    /* background-position: center; -- para imagem ficar posicionada do centro para os lados*/ 
+    background-size: cover;
+}
+
+.header{
+    padding-top: 8px;
+    
+    color: white;
+    
+}
+
+.container{
+    max-width: 1400px;
+    height: 100px;
+    /* margin: 0 auto; */
+    padding-left: 64px;
+    display: flex;
+}
+
+ul{
+    list-style: none;
+    font-size: 22px;
+    padding: 0;
+    /* text-align: center; */
+}
+
+ul li{
+    font-family: 'Poppins', sans-serif;   
+    display: inline;
+    margin-right: 148px; /* distância entre itens da lista */
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    border-bottom: 2px solid #C3321E;
+}
+
+.logo{
+    display: flex;
+}
+#logo-1{
+    width: 711px;
+    padding-left: 5px;
+    padding-top: 45px;}
+
+#piscicultura{
+    color: white;
+    font-family: 'Lora', serif;
+    font-size: 55px;
+    padding-top: 94px;
+    padding-left: 40px;
+}
